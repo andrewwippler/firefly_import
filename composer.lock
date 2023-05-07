@@ -4,52 +4,17 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b91931153574948e5463155c3a176503",
+    "content-hash": "02b4d559ceeb7dd4c9ff203703383a76",
     "packages": [
         {
             "name": "cebe/gnucash-php",
-            "version": "dev-dev",
-            "dist": {
-                "type": "path",
-                "url": "/home/andrew/git_repos/gnucash-php",
-                "reference": "895ac66bd572ad45a220c4ec3effbe4e98cb5c48"
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrewwippler/gnucash-php.git",
+                "reference": "dev"
             },
-            "require": {
-                "ext-mbstring": "*",
-                "lib-libxml": "*",
-                "moneyphp/money": "^4.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "cebe/indent": "*",
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "cebe\\gnucash\\": "src/"
-                }
-            },
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Carsten Brandt",
-                    "email": "mail@cebe.cc"
-                }
-            ],
-            "description": "A library for reading gnucash XML format",
-            "keywords": [
-                "accounting",
-                "gnucash",
-                "money",
-                "xml"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": false
-            }
+            "type": "library"
         },
         {
             "name": "moneyphp/money",
@@ -144,9 +109,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cebe/gnucash-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

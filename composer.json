@@ -13,15 +13,20 @@
     ],
     "repositories": [
       {
-        "type": "path",
-        "url": "/home/andrew/git_repos/gnucash-php",
-        "options": {
-          "symlink": true
-      }
+        "type":"package",
+        "package": {
+          "name": "cebe/gnucash-php",
+          "version":"0.1.0",
+          "source": {
+              "url": "https://github.com/andrewwippler/gnucash-php.git",
+              "type": "git",
+              "reference":"dev"
+            }
+        }
     }
   ],
     "require": {
-      "cebe/gnucash-php": "@dev",
+      "cebe/gnucash-php": "0.1.0",
         "moneyphp/money": "^4.0"
     }
 }
