@@ -1,0 +1,27 @@
+{
+    "name": "andrew/firefly_import",
+    "autoload": {
+        "psr-4": {
+            "Andrew\\FireflyImport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew J Wippler",
+            "email": "andrew.wippler@gmail.com"
+        }
+    ],
+    "repositories": [
+      {
+        "type": "path",
+        "url": "/home/andrew/git_repos/gnucash-php",
+        "options": {
+          "symlink": true
+      }
+    }
+  ],
+    "require": {
+      "cebe/gnucash-php": "@dev",
+        "moneyphp/money": "^4.0"
+    }
+}

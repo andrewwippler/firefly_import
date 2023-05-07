@@ -1,0 +1,6 @@
+src/all-transactions.csv
+src/txt.json
+.firefly_gz*
+firefly_gz*
+vendor
+
